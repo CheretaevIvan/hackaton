@@ -1,0 +1,9 @@
+[Unit]
+Description=Way Checker
+After=syslog.target
+
+[Service]
+ExecStart=/home/root/startup.sh
+
+[Install]
+WantedBy=multi-user.target
