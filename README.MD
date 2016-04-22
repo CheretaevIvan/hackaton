@@ -1,7 +1,6 @@
 ﻿# Установка системы обнаружения объекта на пути приоритетного объекта
 
 1. Первым делом подключаем Edison Compute Module к Edison Arduino board. Затем подключаем плату расширения Grove Basic Shield к Edison Arduino Board. Grove LCD RGB Backlight подключается к I2C разъему на Grove Basic Shield.
-
     Ультразвуковой датчик расстояния HC-SR04 подключается к Grove Basic Shield следующим образом (см. рис. schema.jpg):
 
 - Vcc к +5V;
