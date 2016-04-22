@@ -2,13 +2,9 @@
 
 1. Первым делом подключаем Edison Compute Module к Edison Arduino board. Затем подключаем плату расширения Grove Basic Shield к Edison Arduino Board. Grove LCD RGB Backlight подключается к I2C разъему на Grove Basic Shield.
     Ультразвуковой датчик расстояния HC-SR04 подключается к Grove Basic Shield следующим образом (см. рис. schema.jpg):
-
-- Vcc к +5V;
-	
+- Vcc к +5V;	
 - Trig к пину #3;
-
-- Echo к пину #4;
-	
+- Echo к пину #4;	
 - Gnd к Gnd.
 
 2. Используя кроссплатформенную среду разработки [MCU SDK](https://software.intel.com/en-us/node/545143), загружаем код для работы датчика, представленный в файле mcu_main.c
